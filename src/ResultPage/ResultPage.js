@@ -22,28 +22,28 @@ const ResultPage = (props) => {
                     <div className="rp-clouds">Clouds</div>
                     <div>{resultdata.clouds.all}%</div>
                     <div>
-                        <img className="rp-cloud" src={cloudIcon}></img>
+                        <img className="rp-cloud" src={cloudIcon} alt=''></img>
                     </div>
                 </div>
                 <div className="rp-weathercells">
                     <div className="rp-humidity">Humidity</div>
                     <div>{resultdata.main.humidity}%</div>
                     <div>
-                        <img className="rp-humidityicon" src={humidityIcon}></img>
+                        <img className="rp-humidityicon" src={humidityIcon} alt=''></img>
                     </div>
                 </div>
                 <div className="rp-windspeed">
                     <div className="rp-wind">Wind</div>
                     <div>{resultdata.wind.speed}m/s</div>
                     <div>
-                        <img className="rp-imgWind" src={windIcon}></img>
+                        <img className="rp-imgWind" src={windIcon} alt=''></img>
                     </div>
                 </div>
                 <div className="rp-windpressure">
                     <div className="rp-pressure">Pressure</div>
                     <div>{resultdata.main.pressure}Pa</div>
                     <div>
-                        <img className="rp-imgPressure" src={pressureIcon}></img>
+                        <img className="rp-imgPressure" src={pressureIcon} alt=''></img>
                     </div>
                 </div>
             </div>
